@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bitter', serif;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  display: flex;
+}
+
+input, button {
+  position: absolute;
+  left: 70px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 1rem;
+}
+
+.footer .year {
+  font-weight: bold;
+}
+
+.footer .year::after {
+  content: " - ";
+}
+
+.footer .link {
+  color: #3d3d3d;
+}
